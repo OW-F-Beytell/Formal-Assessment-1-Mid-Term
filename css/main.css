@@ -15,6 +15,29 @@ nav{
     padding-left: 10%;
     padding-right: 10%;
 }
+
+header h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+header{
+    background-color: lightgray;
+    height: 600px;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 150px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding-top: 50px;
+    background-color: #2b2b2b;
+    height: 150px;
+}
+
 .logo{
     color: white;
     float: left;
@@ -30,7 +53,7 @@ nav{
 .nav-con li{
     float: left;
     background-color: white;
-    color: black;
+    color: #2b2b2b;
     height: 35px;
     padding-left: 20px;
     padding-right: 20px;
@@ -39,8 +62,98 @@ nav{
     margin-right: 5px;
     border-radius: 5px;
 }
+.nav-con li:hover{
+    background-color: #2b2b2b;
+    color: white;
+    cursor: pointer;
+}
+
+.col-12{
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding-top: 26px;
+}
+
+.img-square{
+    background-color: lightgray;
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.col-6-pg1{
+    margin-top: 100px;
+    margin-right: 95px;
+}
+
+.action-button{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #2b2b2b;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-top: 30px;
+}
+.action-button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #2b2b2b;
+}
+
+.col-3{
+    padding-top: 25px;
+}
+.heading-25{
+    margin-top: 100px;
+    text-align: center;
+}
+.img-circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+.img-subt{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.img-par{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 16px;
+    width: 70%;
+}
+.img-btn{
+    color: white;
+    background-color: #2b2b2b;
+    border-radius: 5px;
+    text-align: center;
+    height: 35px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 100px;
+    padding-top: 5px;
+}
+.img-btn:hover{
+    background-color: white;
+    color: #2b2b2b;
+    cursor: pointer;
+    border: 2px solid #2b2b2b;
+    padding-top: 3px;
+}
+
 
 .active{
-    background-color: black !important;
+    background-color: #2b2b2b !important;
     color: white !important;
 }
