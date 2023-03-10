@@ -36,6 +36,7 @@ footer{
     padding-top: 50px;
     background-color: #2b2b2b;
     height: 150px;
+    margin-top: 40px;
 }
 
 .logo{
@@ -74,7 +75,7 @@ footer{
     background-color: gray;
     color: white;
     text-align: center;
-    padding-top: 26px;
+    padding-top: 25px;
 }
 
 .img-square{
@@ -152,8 +153,87 @@ footer{
     padding-top: 3px;
 }
 
-
 .active{
     background-color: #2b2b2b !important;
     color: white !important;
+}
+
+.title_cards_start{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 33px;
+}
+.col-4{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.title_card_img{
+    height: 250px;
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.title_card_title{
+    margin-top: 20px;
+}
+.title_card_caption{
+margin-bottom: 20px;
+}
+.title_card_btn{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #2b2b2b;
+    color: white;
+    padding-top: 5px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.title_card_btn:hover{
+    background-color: white;
+    color: #2b2b2b;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #2b2b2b;
+}
+
+.title_5050{
+    text-align: center;
+    margin-bottom: 58px;
+}
+.col-6-pg2{
+    margin-left: 7.78%;
+}
+.img-square-2{
+    height: 400px;
+    width: 100%;
+    margin-right: 2%;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+.title_column_5050{
+    font-style: italic;
+    margin-top: 20px;
+}
+.par_5050{
+    width: 80%;
+    margin-bottom: 30px;
+}
+.btn-5050{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #2b2b2b;
+    background-color: white;
+    color: #2b2b2b;
+    font-weight: bold;
+    padding-top: 6px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.btn-5050:hover{
+    background-color: #2b2b2b;
+    color: white;
+    cursor: pointer;
 }
